@@ -1,0 +1,171 @@
+(footprint "quarter inch microphone jack"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "a69fed2c-a285-4605-b445-2b7ecfd4cded")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "quarter inch microphone jack"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "050463ba-4302-4db9-b03f-c0ac5d4de3ca")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7d2c2852-f64b-4308-a49b-8c2e7004981d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7f14e5c1-00c1-414f-8b5b-24625c1e9a05")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -6.096 -14.224)
+		(end -6.096 -0.254)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "372ae8b8-cd6b-4caa-b088-c3b3e9c2a3e4")
+	)
+	(fp_rect
+		(start -18.034 -14.224)
+		(end 17.018 -0.254)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "5aff7558-98d5-43c1-b05b-65df94b45af6")
+	)
+	(fp_line
+		(start -11.303 -12.319)
+		(end -12.065 -2.921)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "d8636775-a88e-4742-9651-0cfd84d2457e")
+	)
+	(fp_line
+		(start -10.541 -12.319)
+		(end -11.303 -2.921)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "00f2a12b-e044-48f9-84ee-c9496f5cfbda")
+	)
+	(fp_line
+		(start -9.779 -12.319)
+		(end -10.541 -2.921)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "362f0bf7-3519-4cc9-8563-34bd7f7f39c0")
+	)
+	(fp_line
+		(start -9.017 -12.319)
+		(end -9.779 -2.921)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "bce33e06-3d4a-472b-b8b5-78e8cdeaae2c")
+	)
+	(fp_rect
+		(start -17.526 -12.7)
+		(end 16.764 -2.54)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "8a232aee-86f9-4bb8-bafa-a31892c4a84a")
+	)
+	(fp_rect
+		(start -8.636 -13.97)
+		(end -6.096 -0.508)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "b524c0bc-06f5-44a1-8d11-9c0eb59b36a9")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "187376c0-c5fb-4d92-8594-f96b83ec288b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "S" thru_hole oval
+		(at -0.508 -7.239 90)
+		(size 1.778 3.556)
+		(drill oval 0.8128 2.286)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
+		(uuid "f765d50d-df80-444b-bd5f-166fe1f87849")
+	)
+	(pad "T" thru_hole oval
+		(at 14.478 -10.414 90)
+		(size 1.778 3.556)
+		(drill oval 0.8128 2.286)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
+		(uuid "17dfbeda-1a95-4e45-a9ea-8d10347db039")
+	)
+	(embedded_fonts no)
+)
